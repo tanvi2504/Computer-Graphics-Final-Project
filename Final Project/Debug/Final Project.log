@@ -1,0 +1,24 @@
+﻿Build started 28-Jul-16 12:33:38 PM.
+     1>Project "C:\Users\Tanu\Documents\Visual Studio 2013\Projects\Final Project\Final Project\Final Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt shapes.cpp
+         shapes.cpp
+     1>c:\users\tanu\documents\visual studio 2013\projects\final project\final project\tiny_obj_loader.h(161): warning C4201: nonstandard extension used : nameless struct/union
+     1>c:\users\tanu\documents\visual studio 2013\projects\final project\final project\tiny_obj_loader.h(402): warning C4706: assignment within conditional expression
+     1>c:\users\tanu\documents\visual studio 2013\projects\final project\final project\tiny_obj_loader.h(420): warning C4706: assignment within conditional expression
+     1>c:\users\tanu\documents\visual studio 2013\projects\final project\final project\tiny_obj_loader.h(440): warning C4706: assignment within conditional expression
+     1>c:\users\tanu\documents\visual studio 2013\projects\final project\final project\tiny_obj_loader.h(452): warning C4706: assignment within conditional expression
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tanu\Documents\Visual Studio 2013\Projects\Final Project\Debug\Final Project.exe" /INCREMENTAL /NOLOGO glew32.lib freeglut.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Tanu\Documents\Visual Studio 2013\Projects\Final Project\Debug\Final Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Tanu\Documents\Visual Studio 2013\Projects\Final Project\Debug\Final Project.lib" /MACHINE:X86 Debug\finalMain.obj
+         Debug\lightingParams.obj
+         Debug\shaderSetup.obj
+         Debug\shapes.obj
+         Debug\simpleShape.obj
+         Debug\textureParams.obj
+         Debug\viewParams.obj
+         Final Project.vcxproj -> C:\Users\Tanu\Documents\Visual Studio 2013\Projects\Final Project\Debug\Final Project.exe
+     1>Done Building Project "C:\Users\Tanu\Documents\Visual Studio 2013\Projects\Final Project\Final Project\Final Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.38
